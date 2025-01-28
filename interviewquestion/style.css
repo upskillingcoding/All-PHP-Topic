@@ -1,0 +1,16 @@
+/* *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+} */
+
+.div-main{
+    border: 1px solid gray;
+    border-radius: 4px;
+    padding: 1rem 0.5rem;
+    margin: 1rem 0rem;
+}
+
+h2{
+    text-align: center
+}
