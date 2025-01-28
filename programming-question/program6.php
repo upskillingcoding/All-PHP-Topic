@@ -18,7 +18,6 @@ for($i=0; $i<count($num1); $i++){
         $maxValue = $num1[$i];
     }
 }
-
 echo "The largest Number of an Array is " . $maxValue;
 
 ?>
