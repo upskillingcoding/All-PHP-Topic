@@ -10,5 +10,4 @@ for($i=0; $i<count($array); $i++){
 }
 echo "The Sum of array is ". $totalSum;
 
-
 ?>
