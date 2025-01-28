@@ -5,18 +5,4 @@ echo $var . "<br>" . "<hr>";
 
 echo "Hello, World";
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 ?>
