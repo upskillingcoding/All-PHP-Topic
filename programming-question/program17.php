@@ -11,8 +11,6 @@ for($i=0; $i<strlen($strLower); $i++){
         $strNew .= $str[$i];
     }
 }
-
 echo "Remove All The Vowel in this String $str and final String is $strNew";
-
 
 ?>
