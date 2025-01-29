@@ -2,15 +2,15 @@
 $prog = "Create a PHP program to count the number of vowels in a string.";
 echo $prog . "<br> <hr> <br>";
 
-$str = "MY Name Is Ritik Gupta";
-$countStr = 0;
-for($i=0; $i<strlen($str); $i++){
-    if($str === 'a' || $str === 'e'|| $str === 'i' || $str === 'o' || $str === 'u'){
-        $count += $str[$i];
-    }
-}
+// $str = "MY Name Is Ritik Gupta";
+// $countStr = 0;
+// for($i=0; $i<strlen($str); $i++){
+//     if($str === 'a' || $str === 'e'|| $str === 'i' || $str === 'o' || $str === 'u'){
+//         $count += $str[$i];
+//     }
+// }
 
-echo $countStr;
+// echo $countStr;
 
 $str = "My Name Is Ritik Gupta";
 $strLowCase = strtolower($str);
