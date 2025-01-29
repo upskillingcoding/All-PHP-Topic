@@ -81,32 +81,93 @@
     </div>
 
     <div class="div-main">
-        <h2>15. </h2>
+        <h2>15. How to get the value of a form field in PHP ?</h2>
+        <li>You can get the value of a form field using $_GET['fieldName'] or $_POST['fieldName'], depending on the method used to submit the form</li>
+    </div>
+
+    <div class="div-main">
+        <h2>16. How do you check if a variable is set in PHP ?</h2>
+        <li>Use the isset() function. Example:- isset($var);</li>
+    </div>
+
+    <div class="div-main">
+        <h2>17. What is the difference b/w isset() and empty() in PHP ?</h2>
+        <li>isset() function checks if a variable is set and is not null</li>
+        <li>empty() function checks if a variable is empty. EXAMPLE:- ("", 0, null)</li>
+    </div>
+
+    <div class="div-main">
+        <h2>18. What is the unset() function in PHP ?</h2>
+        <li>unset() function is used to destroy the variable in PHP.</li>
+    </div>
+
+    <div class="div-main">
+        <h2>19. What are the arrays in PHP ?</h2>
+        <li>Arrays are the variable that are stored multiple values. They can be indexed or associated array.</li>
+    </div>
+
+    <div class="div-main">
+        <h2>20. What is an indexed array in PHP ?</h2>
+        <li>An indexed array is an array where each element is assigned a numeric index, starting form 0.</li>
+    </div>
+
+    <div class="div-main">
+        <h2>21. What is an Associated Array in PHP ?</h2>
+        <li>An Associated array is an array where each element is assigned a custom key (string), instead of a numeric index.</li>
+    </div>
+
+    <div class="div-main">
+        <h2>22. What is a multidimensional array in PHP? </h2>
+        <li> A multidimensional array is an array containing one or more arrays. Example: $arr = array(array(1,2), array(3,4));</li>
+    </div>
+
+    <div class="div-main">
+        <h2>23. How do you access an element in an associative array?</h2>
+        <li>You can access elements using the custom key, EXAMPLE:- $array['key']</li>
+    </div>
+
+    <div class="div-main">
+        <h2>24. What is the count() function in PHP ?</h2>
+        <li>The count() function returns the number of elements in an array.</li>
+    </div>
+
+    <div class="div-main">
+        <h2>25. </h2>
         <li></li>
     </div>
 
     <div class="div-main">
-        <h2>16. </h2>
+        <h2>26. </h2>
         <li></li>
     </div>
 
     <div class="div-main">
-        <h2>17. </h2>
+        <h2>27. </h2>
         <li></li>
     </div>
 
     <div class="div-main">
-        <h2>18. </h2>
+        <h2>28. </h2>
         <li></li>
     </div>
 
     <div class="div-main">
-        <h2>19. </h2>
+        <h2>29. </h2>
         <li></li>
     </div>
 
     <div class="div-main">
-        <h2>20. </h2>
+        <h2>30. </h2>
+        <li></li>
+    </div>
+
+    <div class="div-main">
+        <h2>31. </h2>
+        <li></li>
+    </div>
+
+    <div class="div-main">
+        <h2>32. </h2>
         <li></li>
     </div>
 
