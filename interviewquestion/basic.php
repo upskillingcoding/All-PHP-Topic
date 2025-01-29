@@ -132,8 +132,8 @@
     </div>
 
     <div class="div-main">
-        <h2>25. </h2>
-        <li></li>
+        <h2>25. What is the array_push() function in PHP ?</h2>
+        <li>array_push() is used to add one or more elements to the end of an array.</li>
     </div>
 
     <div class="div-main">
@@ -142,32 +142,69 @@
     </div>
 
     <div class="div-main">
-        <h2>27. </h2>
+        <h2>27. What is the explode() function in PHP ?</h2>
+        <li>explode() function is used to convert string to array.</li>
         <li></li>
     </div>
 
     <div class="div-main">
-        <h2>28. </h2>
+        <h2>28. What is the implode() function function in PHP ?</h2>
+        <li>Implode() function is used to convert array to string.</li>
+    </div>
+
+    <div class="div-main">
+        <h2>29. What is the difference between echo and print in PHP ?</h2>
+        <li>echo() can output multiple values at once</li>
+        <li>print() only outputs a single value and always returns 1</li>
+    </div>
+
+    <div class="div-main">
+        <h2>30. What is the strlen() function in PHP ?</h2>
+        <li>The strlen() function returns the length of a string.</li>
+    </div>
+
+    <div class="div-main">
+        <h2>31. How do you convert a string to lowercase in PHP ?</h2>
+        <li>You can convert a string to lowercase using the strtolower() function. </li>
+    </div>
+
+    <div class="div-main">
+        <h2>32. How do you convert a string to strtoupper in PHP ?</h2>
+        <li>You can convert a string to uppercase using the strtoupper() function</li>
+    </div>
+
+    <div class="div-main">
+        <h2>33. </h2>
         <li></li>
     </div>
 
     <div class="div-main">
-        <h2>29. </h2>
+        <h2>34. </h2>
         <li></li>
     </div>
 
     <div class="div-main">
-        <h2>30. </h2>
+        <h2>35. </h2>
         <li></li>
     </div>
 
     <div class="div-main">
-        <h2>31. </h2>
+        <h2>36. </h2>
         <li></li>
     </div>
 
     <div class="div-main">
-        <h2>32. </h2>
+        <h2>37. </h2>
+        <li></li>
+    </div>
+
+    <div class="div-main">
+        <h2>38. </h2>
+        <li></li>
+    </div>
+
+    <div class="div-main">
+        <h2>39. </h2>
         <li></li>
     </div>
 
