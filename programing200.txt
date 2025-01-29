@@ -48,7 +48,7 @@ Write a PHP program to check if an array is associative.
 Write a PHP program to find the sum of all values in an array.
 Write a PHP program to find the average of values in an array.
 Write a PHP program to get the first element of an array.
-Intermediate PHP Questions:
+Intermediate 
 Create a PHP program to find the GCD (Greatest Common Divisor) of two numbers.
 Create a PHP program to find the LCM (Least Common Multiple) of two numbers.
 Write a PHP program to implement binary search on a sorted array.
