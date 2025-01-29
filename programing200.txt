@@ -1,0 +1,201 @@
+Write a PHP program to display "Hello, World!".
+Write a PHP program to print the current date and time.
+Create a PHP program to add two numbers.
+Create a program to find the sum of an array of numbers.
+Write a PHP program to check if a number is even or odd.
+Write a PHP program to find the largest number in an array.
+Write a PHP program to reverse a string.
+Write a program that checks if a given string is a palindrome.
+Create a PHP program to check if a number is prime.
+Create a PHP program to find the factorial of a number.
+Write a PHP program to find the Fibonacci sequence up to N terms.
+Write a PHP program to calculate the square root of a number.
+Write a PHP program to sort an array in ascending order.
+Write a PHP program to sort an array in descending order.
+Create a PHP program to count the number of vowels in a string.
+Create a PHP program to replace all spaces in a string with an underscore.
+Write a PHP program to remove all vowels from a string.
+Create a PHP program to concatenate two strings.
+Write a PHP program to convert a string to lowercase.
+Write a PHP program to convert a string to uppercase.
+Create a PHP program to count the number of words in a string.
+Write a PHP program to find the length of a string.
+Create a PHP program to check if a string contains only digits.
+Write a PHP program to compare two strings.
+Write a PHP program to find the position of a substring within a string.
+Create a PHP program to convert a string into an array of characters.
+Write a PHP program to get the last character of a string.
+Write a PHP program to find the number of characters in a string.
+Write a PHP program to trim leading and trailing spaces from a string.
+Write a PHP program to reverse an array.
+Write a PHP program to merge two arrays.
+Write a PHP program to find the difference between two arrays.
+Write a PHP program to find the intersection of two arrays.
+Write a PHP program to check if an array contains a specific value.
+Write a PHP program to get the keys from an array.
+Write a PHP program to remove duplicates from an array.
+Write a PHP program to check if an array is empty.
+Create a PHP program to get the highest and lowest values in an array.
+Write a PHP program to create an associative array.
+Write a PHP program to add a new element to an associative array.
+Write a PHP program to remove an element from an associative array.
+Write a PHP program to check if a key exists in an associative array.
+Write a PHP program to update a value in an associative array.
+Write a PHP program to loop through an array using a for loop.
+Write a PHP program to loop through an array using a foreach loop.
+Write a PHP program to sort an array using sort() function.
+Write a PHP program to check if an array is associative.
+Write a PHP program to find the sum of all values in an array.
+Write a PHP program to find the average of values in an array.
+Write a PHP program to get the first element of an array.
+Intermediate PHP Questions:
+Create a PHP program to find the GCD (Greatest Common Divisor) of two numbers.
+Create a PHP program to find the LCM (Least Common Multiple) of two numbers.
+Write a PHP program to implement binary search on a sorted array.
+Write a PHP program to convert a string to an array of words.
+Create a PHP program to merge two sorted arrays.
+Create a PHP program to implement matrix addition.
+Write a PHP program to implement matrix multiplication.
+Write a PHP program to check whether a string is a valid email address.
+Write a PHP program to check whether a string is a valid URL.
+Create a PHP program to encode a string using base64 encoding.
+Create a PHP program to decode a base64 encoded string.
+Write a PHP program to convert a string into a date.
+Create a PHP program to get the day of the week from a date.
+Write a PHP program to add days to a date.
+Create a PHP program to subtract days from a date.
+Write a PHP program to get the number of days between two dates.
+Write a PHP program to get the first day of the month.
+Write a PHP program to get the last day of the month.
+Write a PHP program to compare two dates.
+Write a PHP program to validate a date.
+Write a PHP program to find the difference between two dates in years, months, and days.
+Write a PHP program to create a random number between a range.
+Write a PHP program to check if a string contains a specific character.
+Create a PHP program to find the position of a character in a string.
+Write a PHP program to check if a string starts with a given prefix.
+Write a PHP program to check if a string ends with a given suffix.
+Create a PHP program to remove HTML tags from a string.
+Write a PHP program to remove special characters from a string.
+Write a PHP program to find all occurrences of a substring in a string.
+Create a PHP program to replace multiple spaces with a single space in a string.
+Write a PHP program to split a string by a delimiter.
+Create a PHP program to check if a string is alphanumeric.
+Write a PHP program to extract a substring from a string.
+Write a PHP program to check if a number is an Armstrong number.
+Write a PHP program to find the prime factors of a number.
+Write a PHP program to check if a string is an anagram of another string.
+Create a PHP program to implement the bubble sort algorithm.
+Write a PHP program to implement the selection sort algorithm.
+Create a PHP program to implement the insertion sort algorithm.
+Write a PHP program to implement quicksort.
+Write a PHP program to implement mergesort.
+Write a PHP program to implement a stack data structure.
+Create a PHP program to implement a queue data structure.
+Write a PHP program to check if a string is valid JSON.
+Write a PHP program to encode an array into JSON format.
+Create a PHP program to decode a JSON string into an array.
+Write a PHP program to create a file.
+Write a PHP program to read the contents of a file.
+Write a PHP program to append data to a file.
+Write a PHP program to delete a file.
+Write a PHP program to rename a file.
+Write a PHP program to check if a file exists.
+Create a PHP program to copy a file from one location to another.
+Create a PHP program to move a file to a different location.
+Write a PHP program to get the size of a file.
+Create a PHP program to create a directory.
+Write a PHP program to delete a directory.
+Write a PHP program to read all files in a directory.
+Write a PHP program to check if a directory is empty.
+Write a PHP program to change the file permissions.
+Write a PHP program to get the last modified time of a file.
+Write a PHP program to get the current working directory.
+Create a PHP program to get the real path of a file.
+Create a PHP program to check if a file is readable.
+Write a PHP program to read a file line by line.
+Write a PHP program to write to a file using fwrite.
+Create a PHP program to download a file from a URL.
+Write a PHP program to upload a file to a server.
+Create a PHP program to handle file upload errors.
+Write a PHP program to check the file type before uploading.
+Write a PHP program to create a session in PHP.
+Write a PHP program to destroy a session.
+Create a PHP program to store session data.
+Write a PHP program to get session variables.
+Write a PHP program to check if a session is active.
+Create a PHP program to implement login functionality using sessions.
+Write a PHP program to create a cookie.
+Write a PHP program to read a cookie.
+Write a PHP program to delete a cookie.
+Write a PHP program to check if a cookie is set.
+Create a PHP program to set a cookie with an expiration time.
+Write a PHP program to implement user authentication using cookies.
+Create a PHP program to redirect a user to another page.
+Write a PHP program to handle 404 errors using custom error handling.
+Write a PHP program to use try, catch, and throw for error handling.
+Create a PHP program to implement file inclusion with include and require.
+Create a PHP program to use include_once and require_once.
+Write a PHP program to pass variables between pages using URL parameters.
+Write a PHP program to validate user input using isset and empty.
+Write a PHP program to filter user input using filter_var.
+Write a PHP program to create a basic form and process user input.
+Write a PHP program to validate an email address using filter_var.
+Write a PHP program to validate a phone number using regular expressions.
+Write a PHP program to validate a postal code using regular expressions.
+Write a PHP program to calculate the area of a circle based on user input.
+Write a PHP program to calculate the area of a rectangle.
+Create a PHP program to convert temperature from Celsius to Fahrenheit.
+Create a PHP program to convert temperature from Fahrenheit to Celsius.
+Write a PHP program to generate a random password.
+Create a PHP program to check if a password is strong.
+Write a PHP program to implement basic CRUD operations (Create, Read, Update, Delete).
+Write a PHP program to connect to a MySQL database using PDO.
+Write a PHP program to insert data into a MySQL database.
+Write a PHP program to retrieve data from a MySQL database.
+Write a PHP program to update data in a MySQL database.
+Write a PHP program to delete data from a MySQL database.
+Write a PHP program to handle SQL injection.
+Write a PHP program to create a table in MySQL.
+Write a PHP program to drop a table in MySQL.
+Write a PHP program to modify a table in MySQL.
+Create a PHP program to display all rows from a database table.
+Write a PHP program to search for a record in a MySQL database.
+Write a PHP program to calculate the total number of rows in a table.
+Write a PHP program to sort data from a database.
+Write a PHP program to fetch data using prepared statements.
+Write a PHP program to insert multiple rows into a table.
+Write a PHP program to fetch data with specific conditions using SQL.
+Write a PHP program to join two tables in SQL.
+Write a PHP program to group and aggregate data from a table.
+Write a PHP program to filter records based on multiple conditions.
+Write a PHP program to implement pagination in a database.
+Write a PHP program to implement a search functionality in a database.
+Write a PHP program to create a multi-step form.
+Write a PHP program to generate dynamic dropdown lists from a database.
+Write a PHP program to use AJAX with PHP to fetch data without refreshing the page.
+Write a PHP program to implement image upload functionality.
+Write a PHP program to implement a rating system.
+Write a PHP program to implement a contact form with email functionality.
+Write a PHP program to generate a dynamic table based on user input.
+Create a PHP program to implement a file explorer.
+Write a PHP program to check file extensions before upload.
+Write a PHP program to create a guestbook using a database.
+Create a PHP program to create a blog system with comments.
+Write a PHP program to create a simple e-commerce site with a shopping cart.
+Create a PHP program to send an email using PHPMailer.
+Write a PHP program to use SMTP to send email.
+Write a PHP program to display Google Maps using the Google Maps API.
+Write a PHP program to fetch data from an API using cURL.
+Write a PHP program to interact with a RESTful API.
+Write a PHP program to upload and display images.
+Write a PHP program to create a user registration system.
+Create a PHP program to implement password reset functionality.
+Write a PHP program to implement OAuth authentication.
+Write a PHP program to implement a two-factor authentication system.
+Create a PHP program to implement role-based access control.
+Write a PHP program to create a session timeout.
+Write a PHP program to implement CSRF protection.
+Write a PHP program to implement XSS protection.
+Write a PHP program to implement input sanitization and validation.
+Write a PHP program to secure user passwords using password hashing.
