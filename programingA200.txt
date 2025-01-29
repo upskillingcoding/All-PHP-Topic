@@ -1,0 +1,642 @@
+1. What is PHP?
+Answer: PHP is a server-side scripting language used for web development and can be embedded into HTML.
+
+2. How do you define a variable in PHP?
+Answer: Variables in PHP are defined using a dollar sign ($) followed by the variable name. Example: $var = 10;.
+
+3. What are superglobals in PHP?
+Answer: Superglobals are built-in global arrays in PHP such as $_GET, $_POST, $_SESSION, $_COOKIE, etc., that are accessible from any part of the script.
+
+4. What is the difference between $_GET and $_POST?
+Answer: $_GET is used to collect form data after submitting an HTML form using the GET method, and the data is visible in the URL. $_POST is used for the POST method, where the data is sent in the HTTP request body, not visible in the URL.
+
+5. How do you include a file in PHP?
+Answer: You can include a file using include('filename.php') or require('filename.php').
+
+6. What is the difference between include and require in PHP?
+Answer: include will generate a warning if the file is not found but continue execution. require will generate a fatal error and stop execution if the file is not found.
+
+7. What is a session in PHP?
+Answer: A session is a way to store data across multiple pages, maintained on the server.
+
+8. How do you start a session in PHP?
+Answer: A session is started using session_start();.
+
+9. How do you destroy a session in PHP?
+Answer: A session can be destroyed using session_destroy();.
+
+10. What is a cookie in PHP?
+Answer: A cookie is a small file that is stored on the client's browser, which stores information such as preferences and session details.
+
+11. How do you set a cookie in PHP?
+Answer: You set a cookie using the setcookie() function, like this: setcookie("user", "John", time() + 3600);.
+
+12. How do you retrieve a cookie in PHP?
+Answer: You can retrieve a cookie using $_COOKIE. Example: $_COOKIE['user'];.
+
+13. What is the $_SERVER superglobal in PHP?
+Answer: $_SERVER is a superglobal array that contains information about headers, paths, and script locations.
+
+14. What is the $_REQUEST superglobal in PHP?
+Answer: $_REQUEST is a PHP superglobal that collects data after submitting an HTML form, regardless of whether the form is sent via the GET or POST method.
+
+15. How do you get the value of a form field in PHP?
+Answer: You can get the value of a form field using $_GET['fieldname'] or $_POST['fieldname'], depending on the method used to submit the form.
+
+16. How do you check if a variable is set in PHP?
+Answer: Use the isset() function. Example: isset($var).
+
+17. What is the difference between isset() and empty() in PHP?
+Answer: isset() checks if a variable is set and is not null. empty() checks if a variable is empty (e.g., "", 0, null).
+
+18. What is the unset() function in PHP?
+Answer: unset() is used to destroy a variable in PHP.
+
+19. What are arrays in PHP?
+Answer: Arrays are variables that can store multiple values. They can be indexed or associative.
+
+20. What is an indexed array in PHP?
+Answer: An indexed array is an array where each element is assigned a numeric index, starting from 0.
+
+21. What is an associative array in PHP?
+Answer: An associative array is an array where each element is assigned a custom key (string), instead of a numeric index.
+
+22. What is a multidimensional array in PHP?
+Answer: A multidimensional array is an array containing one or more arrays. Example: $arr = array(array(1,2), array(3,4));.
+
+23. How do you access an element in an associative array?
+Answer: You can access elements using the custom key, e.g., $array['key'].
+
+24. What is the count() function in PHP?
+Answer: The count() function returns the number of elements in an array.
+
+25. What is the array_push() function in PHP?
+Answer: array_push() is used to add one or more elements to the end of an array.
+
+26. How do you loop through an array in PHP?
+Answer: You can use a foreach loop to iterate over an array. Example:
+
+php
+Copy
+foreach ($array as $value) {
+    echo $value;
+}
+27. What is the explode() function in PHP?
+Answer: The explode() function splits a string into an array based on a delimiter.
+
+28. What is the implode() function in PHP?
+Answer: The implode() function joins elements of an array into a string.
+
+29. What is the difference between echo and print in PHP?
+Answer: echo can output multiple values at once, while print only outputs a single value and always returns 1.
+
+30. What is the strlen() function in PHP?
+Answer: The strlen() function returns the length of a string.
+
+31. How do you convert a string to lowercase in PHP?
+Answer: You can convert a string to lowercase using the strtolower() function.
+
+32. How do you convert a string to uppercase in PHP?
+Answer: You can convert a string to uppercase using the strtoupper() function.
+
+33. What is the substr() function in PHP?
+Answer: The substr() function is used to extract a portion of a string.
+
+34. What is the strpos() function in PHP?
+Answer: The strpos() function finds the position of the first occurrence of a substring in a string.
+
+35. What is the str_replace() function in PHP?
+Answer: The str_replace() function replaces all occurrences of a substring with another substring in a string.
+
+36. What is the trim() function in PHP?
+Answer: The trim() function removes whitespace or other predefined characters from both ends of a string.
+
+37. How do you get the current date and time in PHP?
+Answer: You can use the date() function. Example: date('Y-m-d H:i:s').
+
+38. How do you format a date in PHP?
+Answer: You can format a date using the date() function, e.g., date('Y-m-d').
+
+39. What is the strtotime() function in PHP?
+Answer: The strtotime() function converts an English textual datetime description into a Unix timestamp.
+
+40. How do you redirect to another page in PHP?
+Answer: You can use the header() function for redirection. Example: header('Location: newpage.php');.
+
+41. What is the header() function in PHP?
+Answer: The header() function sends a raw HTTP header to the browser.
+
+42. What is the difference between header() and meta refresh for redirection?
+Answer: header() is a server-side method of redirection, whereas meta refresh is a client-side redirection defined in the HTML.
+
+43. What is the file_get_contents() function in PHP?
+Answer: The file_get_contents() function reads a file into a string.
+
+44. What is the fopen() function in PHP?
+Answer: The fopen() function is used to open a file or URL.
+
+45. How do you read from a file in PHP?
+Answer: You can use the fread() function to read data from a file.
+
+46. How do you write to a file in PHP?
+Answer: You can use the fwrite() function to write data to a file.
+
+47. What is the file_exists() function in PHP?
+Answer: The file_exists() function checks whether a file or directory exists.
+
+48. What is the unlink() function in PHP?
+Answer: The unlink() function deletes a file.
+
+49. What is the rename() function in PHP?
+Answer: The rename() function renames a file or directory.
+
+50. What is the mkdir() function in PHP?
+Answer: The mkdir() function creates a directory.
+
+These are the first 50 questions and answers. Would you like me to continue the list or explore any specific topic further?
+
+
+You said:
+yes
+ChatGPT said:
+ChatGPT
+Great! Let's continue with the next set of questions and answers in PHP, excluding OOP concepts:
+
+51. What is the rmdir() function in PHP?
+Answer: The rmdir() function deletes an empty directory.
+
+52. How do you get the file size in PHP?
+Answer: You can use the filesize() function to get the size of a file in bytes.
+
+53. What is the move_uploaded_file() function in PHP?
+Answer: The move_uploaded_file() function is used to move an uploaded file to a new location.
+
+54. What is the is_uploaded_file() function in PHP?
+Answer: The is_uploaded_file() function checks if the file is uploaded via HTTP POST.
+
+55. How do you check if a file is readable in PHP?
+Answer: Use the is_readable() function to check if a file is readable.
+
+56. How do you check if a file is writable in PHP?
+Answer: Use the is_writable() function to check if a file is writable.
+
+57. What is the file_put_contents() function in PHP?
+Answer: The file_put_contents() function writes data to a file. If the file does not exist, it is created.
+
+58. What is the parse_url() function in PHP?
+Answer: The parse_url() function parses a URL and returns its components.
+
+59. How do you generate a random number in PHP?
+Answer: You can use the rand() or mt_rand() function to generate a random number.
+
+60. What is the md5() function in PHP?
+Answer: The md5() function calculates the MD5 hash of a string, returning a 32-character hexadecimal number.
+
+61. What is the sha1() function in PHP?
+Answer: The sha1() function calculates the SHA-1 hash of a string.
+
+62. What is the password_hash() function in PHP?
+Answer: The password_hash() function creates a password hash using a strong one-way hashing algorithm.
+
+63. What is the password_verify() function in PHP?
+Answer: The password_verify() function verifies if a given password matches a hashed password.
+
+64. What is the strlen() function in PHP?
+Answer: The strlen() function returns the length of a string.
+
+65. How do you remove whitespace from a string in PHP?
+Answer: You can use the trim() function to remove whitespace from the beginning and end of a string.
+
+66. How do you replace a string within a string in PHP?
+Answer: Use the str_replace() function to replace all occurrences of a substring with another substring.
+
+67. What is the strtoupper() function in PHP?
+Answer: The strtoupper() function converts a string to uppercase.
+
+68. What is the strtolower() function in PHP?
+Answer: The strtolower() function converts a string to lowercase.
+
+69. What is the substr() function in PHP?
+Answer: The substr() function returns a portion of a string starting at a specified position.
+
+70. What is the strrev() function in PHP?
+Answer: The strrev() function reverses a string.
+
+71. What is the strpos() function in PHP?
+Answer: The strpos() function finds the position of the first occurrence of a substring in a string.
+
+72. What is the strstr() function in PHP?
+Answer: The strstr() function finds the first occurrence of a substring in a string and returns the part of the string starting from that substring.
+
+73. What is the str_repeat() function in PHP?
+Answer: The str_repeat() function repeats a string a specified number of times.
+
+74. How do you find the length of an array in PHP?
+Answer: Use the count() function to find the number of elements in an array.
+
+75. What is the array_merge() function in PHP?
+Answer: The array_merge() function merges two or more arrays into one array.
+
+76. What is the array_push() function in PHP?
+Answer: The array_push() function adds one or more elements to the end of an array.
+
+77. What is the array_pop() function in PHP?
+Answer: The array_pop() function removes the last element from an array.
+
+78. What is the array_shift() function in PHP?
+Answer: The array_shift() function removes the first element from an array.
+
+79. What is the array_unshift() function in PHP?
+Answer: The array_unshift() function adds one or more elements to the beginning of an array.
+
+80. What is the in_array() function in PHP?
+Answer: The in_array() function checks if a value exists in an array.
+
+81. What is the array_key_exists() function in PHP?
+Answer: The array_key_exists() function checks if a specific key exists in an array.
+
+82. What is the array_slice() function in PHP?
+Answer: The array_slice() function returns a portion of an array.
+
+83. How do you merge arrays in PHP?
+Answer: You can merge arrays using the array_merge() function.
+
+84. What is the array_map() function in PHP?
+Answer: The array_map() function applies a callback function to each element of an array.
+
+85. What is the array_filter() function in PHP?
+Answer: The array_filter() function filters elements of an array using a callback function.
+
+86. What is the array_walk() function in PHP?
+Answer: The array_walk() function applies a user-defined function to each element of an array.
+
+87. What is the shuffle() function in PHP?
+Answer: The shuffle() function randomly shuffles the elements of an array.
+
+88. What is the sort() function in PHP?
+Answer: The sort() function sorts an array in ascending order.
+
+89. What is the rsort() function in PHP?
+Answer: The rsort() function sorts an array in descending order.
+
+90. What is the array_reverse() function in PHP?
+Answer: The array_reverse() function reverses the order of elements in an array.
+
+91. What is the isset() function in PHP?
+Answer: The isset() function checks if a variable is set and is not null.
+
+92. What is the empty() function in PHP?
+Answer: The empty() function checks if a variable is empty (e.g., "", 0, null).
+
+93. What is the is_numeric() function in PHP?
+Answer: The is_numeric() function checks if a value is a number or a numeric string.
+
+94. What is the is_array() function in PHP?
+Answer: The is_array() function checks if a variable is an array.
+
+95. What is the is_string() function in PHP?
+Answer: The is_string() function checks if a variable is a string.
+
+96. What is the is_int() function in PHP?
+Answer: The is_int() function checks if a variable is an integer.
+
+97. What is the is_float() function in PHP?
+Answer: The is_float() function checks if a variable is a floating-point number.
+
+98. What is the is_bool() function in PHP?
+Answer: The is_bool() function checks if a variable is a boolean.
+
+99. What is the is_null() function in PHP?
+Answer: The is_null() function checks if a variable is null.
+
+100. How do you send an email in PHP?
+Answer: You can use the mail() function to send an email. Example:
+
+php
+Copy
+mail($to, $subject, $message, $headers);
+This is the next batch of 50 questions! Would you like me to continue with more questions or elaborate on any specific topic?
+
+
+You said:
+yes
+ChatGPT said:
+ChatGPT
+Great! Let's continue with the next set of 50 questions and answers in PHP:
+
+101. What is the fclose() function in PHP?
+Answer: The fclose() function closes an open file pointer.
+
+102. What is the fgets() function in PHP?
+Answer: The fgets() function reads a line from an open file.
+
+103. What is the file() function in PHP?
+Answer: The file() function reads a file into an array, where each element of the array corresponds to a line in the file.
+
+104. What is the file_exists() function in PHP?
+Answer: The file_exists() function checks whether a file or directory exists.
+
+105. What is the getcwd() function in PHP?
+Answer: The getcwd() function gets the current working directory.
+
+106. What is the chdir() function in PHP?
+Answer: The chdir() function changes the current working directory.
+
+107. What is the realpath() function in PHP?
+Answer: The realpath() function returns the absolute pathname of a file or directory.
+
+108. What is the get_headers() function in PHP?
+Answer: The get_headers() function fetches all the headers sent by the server in response to an HTTP request.
+
+109. What is the parse_str() function in PHP?
+Answer: The parse_str() function parses a URL-encoded query string into variables.
+
+110. What is the http_build_query() function in PHP?
+Answer: The http_build_query() function generates a URL-encoded query string from an associative array.
+
+111. What is the uniqid() function in PHP?
+Answer: The uniqid() function generates a unique identifier based on the current time in microseconds.
+
+112. What is the gettype() function in PHP?
+Answer: The gettype() function returns the type of a variable.
+
+113. What is the settype() function in PHP?
+Answer: The settype() function sets the type of a variable.
+
+114. What is the error_reporting() function in PHP?
+Answer: The error_reporting() function sets the level of error reporting.
+
+115. What is the ini_set() function in PHP?
+Answer: The ini_set() function sets the value of a configuration option in the php.ini file at runtime.
+
+116. What is the ini_get() function in PHP?
+Answer: The ini_get() function gets the value of a configuration option from the php.ini file.
+
+117. What is the set_error_handler() function in PHP?
+Answer: The set_error_handler() function sets a user-defined function to handle errors.
+
+118. What is the trigger_error() function in PHP?
+Answer: The trigger_error() function generates a user-level error.
+
+119. What is the die() function in PHP?
+Answer: The die() function terminates the current script and outputs a message.
+
+120. What is the exit() function in PHP?
+Answer: The exit() function terminates the current script, and you can also pass a message or a status code.
+
+121. What is the isset() function in PHP?
+Answer: The isset() function checks if a variable is set and is not null.
+
+122. What is the empty() function in PHP?
+Answer: The empty() function checks if a variable is empty (e.g., "", 0, null).
+
+123. What is the filter_var() function in PHP?
+Answer: The filter_var() function filters a variable with a specified filter.
+
+124. How do you validate an email address in PHP?
+Answer: You can validate an email address using filter_var($email, FILTER_VALIDATE_EMAIL).
+
+125. What is the urlencode() function in PHP?
+Answer: The urlencode() function encodes a string to be used in a URL.
+
+126. What is the urldecode() function in PHP?
+Answer: The urldecode() function decodes a URL-encoded string.
+
+127. What is the htmlspecialchars() function in PHP?
+Answer: The htmlspecialchars() function converts special characters to HTML entities.
+
+128. What is the htmlentities() function in PHP?
+Answer: The htmlentities() function converts all applicable characters to HTML entities.
+
+129. What is the strip_tags() function in PHP?
+Answer: The strip_tags() function strips HTML and PHP tags from a string.
+
+130. What is the nl2br() function in PHP?
+Answer: The nl2br() function inserts HTML line breaks (<br>) before all newlines in a string.
+
+131. What is the session_id() function in PHP?
+Answer: The session_id() function gets or sets the session ID for the current session.
+
+132. What is the session_regenerate_id() function in PHP?
+Answer: The session_regenerate_id() function regenerates the session ID to prevent session fixation.
+
+133. What is the session_name() function in PHP?
+Answer: The session_name() function gets or sets the name of the current session.
+
+134. What is the session_unset() function in PHP?
+Answer: The session_unset() function frees all session variables.
+
+135. What is the session_destroy() function in PHP?
+Answer: The session_destroy() function destroys the current session.
+
+136. What is the session_save_path() function in PHP?
+Answer: The session_save_path() function gets or sets the path where session data is stored.
+
+137. What is the session_cache_limiter() function in PHP?
+Answer: The session_cache_limiter() function gets or sets the cache limiter for the current session.
+
+138. What is the session_set_cookie_params() function in PHP?
+Answer: The session_set_cookie_params() function sets the parameters for the session cookie.
+
+139. What is the filter_input() function in PHP?
+Answer: The filter_input() function gets an external variable and filters it.
+
+140. What is the filter_input_array() function in PHP?
+Answer: The filter_input_array() function gets multiple external variables and filters them.
+
+141. What is the getenv() function in PHP?
+Answer: The getenv() function gets the value of an environment variable.
+
+142. What is the putenv() function in PHP?
+Answer: The putenv() function sets the value of an environment variable.
+
+143. How do you handle exceptions in PHP?
+Answer: Exceptions are handled using a try...catch block in PHP.
+
+144. What is the throw keyword in PHP?
+Answer: The throw keyword is used to throw an exception in PHP.
+
+145. What is the finally block in PHP?
+Answer: The finally block executes after the try and catch blocks, regardless of whether an exception was thrown or not.
+
+146. What is the mysqli_connect() function in PHP?
+Answer: The mysqli_connect() function opens a new connection to a MySQL server.
+
+147. How do you select data from a MySQL database in PHP?
+Answer: Use mysqli_query() function to run a SELECT query and retrieve data from a MySQL database.
+
+148. What is the mysqli_fetch_assoc() function in PHP?
+Answer: The mysqli_fetch_assoc() function fetches a result row as an associative array.
+
+149. What is the mysqli_query() function in PHP?
+Answer: The mysqli_query() function executes a query on a MySQL database.
+
+150. How do you close a MySQL connection in PHP?
+Answer: You can close a MySQL connection using the mysqli_close() function.
+
+This is the next batch of 50 questions! We're now up to 150. Would you like me to continue with the remaining 50 questions?
+
+
+You said:
+yes
+ChatGPT said:
+ChatGPT
+Awesome! Let's continue with the next set of 50 questions and answers in PHP:
+
+151. What is the mysqli_fetch_row() function in PHP?
+Answer: The mysqli_fetch_row() function fetches a result row as a numeric array.
+
+152. What is the mysqli_fetch_object() function in PHP?
+Answer: The mysqli_fetch_object() function fetches a result row as an object.
+
+153. What is the mysqli_num_rows() function in PHP?
+Answer: The mysqli_num_rows() function returns the number of rows in a result set.
+
+154. What is the mysqli_affected_rows() function in PHP?
+Answer: The mysqli_affected_rows() function returns the number of affected rows in the last query.
+
+155. What is the mysqli_insert_id() function in PHP?
+Answer: The mysqli_insert_id() function returns the ID generated by a query that inserts a new record into the database.
+
+156. What is the mysqli_prepare() function in PHP?
+Answer: The mysqli_prepare() function prepares an SQL statement for execution.
+
+157. What is the mysqli_stmt_bind_param() function in PHP?
+Answer: The mysqli_stmt_bind_param() function binds variables to a prepared statement as parameters.
+
+158. What is the mysqli_stmt_execute() function in PHP?
+Answer: The mysqli_stmt_execute() function executes a prepared statement.
+
+159. What is the mysqli_stmt_get_result() function in PHP?
+Answer: The mysqli_stmt_get_result() function returns a result set from a prepared statement.
+
+160. What is the mysqli_fetch_assoc() function in prepared statements?
+Answer: In prepared statements, mysqli_fetch_assoc() fetches a result row as an associative array.
+
+161. What is the PDO extension in PHP?
+Answer: The PDO (PHP Data Objects) extension provides a consistent interface for accessing various databases in PHP.
+
+162. How do you connect to a MySQL database using PDO in PHP?
+Answer: Use the new PDO() statement to establish a database connection. Example:
+
+php
+Copy
+$pdo = new PDO('mysql:host=localhost;dbname=test', 'username', 'password');
+163. What is the PDO::query() method in PHP?
+Answer: The PDO::query() method executes an SQL query and returns the result.
+
+164. What is the PDO::prepare() method in PHP?
+Answer: The PDO::prepare() method prepares an SQL statement for execution.
+
+165. What is the PDOStatement::bindParam() method in PHP?
+Answer: The PDOStatement::bindParam() method binds a variable to a parameter in the prepared statement.
+
+166. What is the PDOStatement::execute() method in PHP?
+Answer: The PDOStatement::execute() method executes a prepared statement.
+
+167. What is the PDO::lastInsertId() method in PHP?
+Answer: The PDO::lastInsertId() method returns the ID of the last inserted row.
+
+168. What is the PDOStatement::fetch() method in PHP?
+Answer: The PDOStatement::fetch() method fetches a row from a result set.
+
+169. What is the PDO::beginTransaction() method in PHP?
+Answer: The PDO::beginTransaction() method starts a transaction.
+
+170. What is the PDO::commit() method in PHP?
+Answer: The PDO::commit() method commits a transaction.
+
+171. What is the PDO::rollBack() method in PHP?
+Answer: The PDO::rollBack() method rolls back a transaction.
+
+172. What is the json_encode() function in PHP?
+Answer: The json_encode() function encodes a PHP variable into a JSON string.
+
+173. What is the json_decode() function in PHP?
+Answer: The json_decode() function decodes a JSON string into a PHP variable.
+
+174. What is the array_walk_recursive() function in PHP?
+Answer: The array_walk_recursive() function applies a user-defined function to each element of an array recursively.
+
+175. What is the usort() function in PHP?
+Answer: The usort() function sorts an array by values using a user-defined comparison function.
+
+176. What is the ksort() function in PHP?
+Answer: The ksort() function sorts an array by keys in ascending order.
+
+177. What is the krsort() function in PHP?
+Answer: The krsort() function sorts an array by keys in descending order.
+
+178. What is the array_unique() function in PHP?
+Answer: The array_unique() function removes duplicate values from an array.
+
+179. What is the array_intersect() function in PHP?
+Answer: The array_intersect() function compares two or more arrays and returns the common values.
+
+180. What is the array_diff() function in PHP?
+Answer: The array_diff() function compares two or more arrays and returns the values from the first array that are not present in the others.
+
+181. What is the array_combine() function in PHP?
+Answer: The array_combine() function creates an array by using one array for keys and another for values.
+
+182. What is the array_chunk() function in PHP?
+Answer: The array_chunk() function splits an array into chunks of a specified size.
+
+183. What is the array_diff_key() function in PHP?
+Answer: The array_diff_key() function compares the keys of two or more arrays and returns the elements from the first array that are not present in the others.
+
+184. What is the array_flip() function in PHP?
+Answer: The array_flip() function exchanges all keys with their associated values in an array.
+
+185. What is the array_fill() function in PHP?
+Answer: The array_fill() function fills an array with a specified value.
+
+186. What is the str_pad() function in PHP?
+Answer: The str_pad() function pads a string to a certain length with another string.
+
+187. What is the str_split() function in PHP?
+Answer: The str_split() function splits a string into an array of characters.
+
+188. What is the preg_match() function in PHP?
+Answer: The preg_match() function performs a regular expression match.
+
+189. What is the preg_replace() function in PHP?
+Answer: The preg_replace() function performs a regular expression search and replace.
+
+190. What is the preg_split() function in PHP?
+Answer: The preg_split() function splits a string by a regular expression.
+
+191. What is the mkdir() function in PHP?
+Answer: The mkdir() function creates a new directory.
+
+192. What is the rmdir() function in PHP?
+Answer: The rmdir() function deletes an empty directory.
+
+193. What is the scandir() function in PHP?
+Answer: The scandir() function returns an array of files and directories in a given path.
+
+194. What is the glob() function in PHP?
+Answer: The glob() function searches for files based on a pattern.
+
+195. What is the file_get_contents() function in PHP?
+Answer: The file_get_contents() function reads the entire content of a file into a string.
+
+196. What is the file_put_contents() function in PHP?
+Answer: The file_put_contents() function writes data to a file.
+
+197. What is the unlink() function in PHP?
+Answer: The unlink() function deletes a file.
+
+198. What is the touch() function in PHP?
+Answer: The touch() function sets the access time and modification time of a file.
+
+199. What is the getimagesize() function in PHP?
+Answer: The getimagesize() function gets the size and dimensions of an image.
+
+200. How do you redirect a page in PHP?
+Answer: You can redirect a page using the header() function. Example:
+
+php
+Copy
+header('Location: newpage.php');
+exit();
