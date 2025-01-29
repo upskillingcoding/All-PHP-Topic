@@ -39,6 +39,77 @@
         <li>Required :- require will generate a fatel error and stop the execution if file is not found.</li>
     </div>
 
+    <div class="div-main">
+        <h2>Q7. What is a session in PHP ?</h2>
+        <li>A session is a way to store data across multiple pages, maintained on the server</li>
+    </div>
+
+    <div class="div-main">
+        <h2>Q8. How do you start a session in PHP ?</h2>
+        <li>A session is started using session_start()</li>
+    </div>
+
+    <div class="div-main">
+        <h2>Q9. How do you session destroy in PHP ?</h2>
+        <li>A session destroy using session_destroy()</li>
+    </div>
+
+    <div class="div-main">
+        <h2>Q10. What is a cookies in PHP ?</h2>
+        <li>A cookies is a small file that is stored on the client's browser, which stores information such as preferences and session details</li>
+    </div>
+
+    <div class="div-main">
+        <h2>Q11. How do you set a cookies in PHP ?</h2>
+        <li>You set a cookies using the setcookies() function, like this:- setcookies("user", "John", time() + 3600)</li>
+        <li>syntax of cookies is :-setcookies(name, value, expire, path, domain, httponly)</li>
+    </div>
+
+    <div class="div-main">
+        <h2>Q12. How to you retrieve a cookies in PHP ?</h2>
+        <li>You can retrieve the cookies using $_COOKIES. EXAMPLE:- $_COOKIES['user']</li>
+    </div>
+
+    <div class="div-main">
+        <h2>13. What is the $_SERVER superglobal variable in PHP ?</h2>
+        <li>$_SERVER is a superglobal array that contains information about header, paths and script location.</li>
+    </div>
+
+    <div class="div-main">
+        <h2>14. What is the $_REQUEST superglobal in PHP ?</h2>
+        <li>$_REQUEST is a PHP superglobals that collects the data after submitting an HTML Form, regardless of whether the form is sent via the GET or POST method.</li>
+    </div>
+
+    <div class="div-main">
+        <h2>15. </h2>
+        <li></li>
+    </div>
+
+    <div class="div-main">
+        <h2>16. </h2>
+        <li></li>
+    </div>
+
+    <div class="div-main">
+        <h2>17. </h2>
+        <li></li>
+    </div>
+
+    <div class="div-main">
+        <h2>18. </h2>
+        <li></li>
+    </div>
+
+    <div class="div-main">
+        <h2>19. </h2>
+        <li></li>
+    </div>
+
+    <div class="div-main">
+        <h2>20. </h2>
+        <li></li>
+    </div>
+
 
 
     <div class="div-main">
