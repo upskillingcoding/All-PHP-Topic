@@ -215,6 +215,19 @@
         <li></li>
     </div>
 
+    <div class="div-main">
+        <h2>Q. Write the list of magic method in PHP</h2>
+        <li>__constuct() :- The __construct() method is a special method in a class that is automatically called when an object is created.</li>
+        <li>__destruct() :- The __destruct() method is a special method in a class that is automatically called when an object is destroy.</li>
+        <li>__get() :- The __get() method is trigged when reading a property of an object that is inaccessible or does not exist.</li>
+        <li>__set() :- The __set() method is trigged when reading a property of an object that is inaccessible or does not exist.</li>
+        <li>__call() :- The __call() method is invoked when calling a method that is not accessible or does not exit in an object.</li>
+        <li>__toString() :- The __call() method is trigged when an object is treated as String. when used in echo and print.</li>
+        <li>__clone() :- The __clone() method is trigged when an object is cloned using the clone keyword.</li>
+        <li>__sleep() :- The __sleep() method is trigged when an object is serialized, allowing you to specify which properties to serialize.</li>
+        <li>__wakeup() :- The __wakeup() method is trigged when an object is unserialized, allowing you to re-initialize any resource.</li>
+    </div>
+
 
 </body>
 </html>
