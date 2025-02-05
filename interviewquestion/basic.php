@@ -174,13 +174,16 @@
     </div>
 
     <div class="div-main">
-        <h2>33. </h2>
-        <li></li>
+        <h2>33. What is the substr() function in PHP</h2>
+        <li>The substr() function is used to extract a portion of a string.</li>
+        <li>
+            substr("Hello World", 6)
+        </li>
     </div>
 
     <div class="div-main">
-        <h2>34. </h2>
-        <li></li>
+        <h2>34. What is the strpos function in PHP</h2>
+        <li>The strpos function finds the position of the first occurence of a substring in a string.</li>
     </div>
 
     <div class="div-main">
